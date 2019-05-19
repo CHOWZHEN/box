@@ -53,7 +53,7 @@
                     [
                         'posx.jpg',
                         'negx.jpg',
-                        'posydzb.jpg',
+                        'posyzz.jpg',
                         'negy.jpg',
                         'posz.jpg',
                         'negz.jpg'
@@ -118,7 +118,7 @@
          let textureURLs = [ // URLs of the six faces of the cube map 
             "examples/textures/posx.jpg", // Note:  The order in which
             "examples/textures/negx.jpg", //   the images are listed is
-            "examples/textures/posydzb.jpg", //   important.
+            "examples/textures/posyzz.jpg", //   important.
             "examples/textures/negy.jpg",
             "examples/textures/posz.jpg",
             "examples/textures/negz.jpg"
@@ -160,7 +160,7 @@
  
         function render() {
             controls.update();
-			controls1.update();
+		    controls1.update();
             stats.update();
             requestAnimationFrame(render);
             renderer.render(scene, camera);
